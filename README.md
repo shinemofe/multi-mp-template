@@ -14,13 +14,6 @@ npm install # 或 yarn install
 npm run serve
 ```
 
-浏览器输入
-
-```
-# 端口按照本地的来
-http://localhost:8080/demo.html
-```
-
 ⚠️ 预览，预览需要通过手机 app 扫码，执行下面命令生成二维码
 
 ```
