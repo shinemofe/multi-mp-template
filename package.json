@@ -1,0 +1,46 @@
+{
+  "name": "tv-mp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "lint": "vue-cli-service lint",
+    "build:all": "vue-cli-service build && node build/after-build.js",
+    "build": "node build/build.js",
+    "create": "node build/create.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "dayjs": "^1.8.24",
+    "dom-to-image": "^2.6.0",
+    "tcon": "^1.0.8",
+    "vant": "^2.10.0",
+    "vue-router": "^3.1.6"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "@babel/preset-env": "^7.10.4",
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-plugin-router": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "autoprefixer": "^9.8.4",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-vca-jsx": "^0.3.5",
+    "cross-spawn": "^7.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "fs-extra": "^9.0.0",
+    "jszip": "^3.5.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "postcss-px-to-viewport": "https://github.com/evrone/postcss-px-to-viewport",
+    "rimraf": "^3.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
