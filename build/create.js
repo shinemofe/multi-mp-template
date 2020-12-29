@@ -110,7 +110,7 @@ const config = getSrc('vue.config.js')
 const con = fs.readFileSync(config, 'utf8')
 
 fs.outputFileSync(config, con.replace('/*inserted*/', `/*inserted*/
-    ${args}: {
+    '${args}': {
       entry: 'src/entry/${args}.js',
       chunks: ['chunk-vendors', 'chunk-common', '${args}'],
       color: ''
