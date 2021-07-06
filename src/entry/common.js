@@ -51,10 +51,10 @@ export default async (router, comp, deps) => {
     }
     window.xm.on('onAppResume', sourceCheck)
     window.xm.on('onLoad', sourceCheck)
+    if (process.env.NODE_ENV === 'development') {
+      sourceCheck()
+    }
   }
-  // if (process.env.NODE_ENV === 'development') {
-  //   sourceCheck()
-  // }
   const render = () => {
     new Vue({
       router,
